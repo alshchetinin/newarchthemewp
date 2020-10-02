@@ -1,0 +1,23 @@
+.editor-styles-wrapper {
+  background-color: #000000 !important;
+  font-family: "Avenir Next", sans-serif !important;
+  color: #fff !important; }
+
+.wp-block {
+  max-width: 1140px; }
+
+.editor-post-title__block .editor-post-title__input {
+  font-family: "aeroport", "Avenir Next", sans-serif;
+  color: #ffffff !important;
+  font-size: 40px; }
+
+h2, h3, h4 {
+  font-family: "aeroport", "Avenir Next", sans-serif;
+  color: #ffffff !important; }
+
+.wp-block-paragraph, .wp-block-quote {
+  font-family: "Avenir Next", sans-serif;
+  color: #ffffff !important; }
+
+.wp-block .is-selected {
+  background-color: #FF403C; }
