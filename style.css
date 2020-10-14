@@ -498,7 +498,7 @@ img {
   font-size: 70px;
   font-family: "aeroport", "Avenir Next", sans-serif;
   font-weight: bold;
-  line-height: 1.09; }
+  line-height: 1.2; }
   @media screen and (max-width: 1640px) {
     .font-gigant {
       font-size: 50px; } }
@@ -4436,7 +4436,7 @@ footer {
     word-wrap: break-word;
     margin-left: 10px;
     margin-right: 10px;
-    width: calc(100% / 8 * 4 - 20px);
+    width: calc(100% / 8 * 2.5 - 20px);
     position: relative; }
     @media screen and (max-width: 1024px) {
       .text-and-gif-item__gif {
@@ -4504,7 +4504,7 @@ footer {
     margin-bottom: 36px; }
   .what-do-you-get__subtitle {
     font-size: 60px;
-    line-height: 60px;
+    line-height: 1.2;
     font-weight: bold;
     font-family: "aeroport", "Avenir Next", sans-serif;
     -webkit-text-fill-color: transparent;
