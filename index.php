@@ -32,14 +32,14 @@
          <h2 class="font-super-gigant">Всегда рады поработать вместе</h2>
       </div>
          <div class="row">
-         <div class="partner">
+         <div class="partner partner_main">
             <div class="partner__logos">
 
             <?php while( have_rows('blok_nam_doveryayut', 'option') ): the_row(); 
                // переменные
                $logo = get_sub_field('logo');
                ?>
-               <div class="partner-logo">
+               <div class="partner-logo partner-logo_main">
                   <img class="img-responsive" src="<?php echo esc_url($logo['url']); ?>" alt="<?php echo esc_attr($logo['alt']); ?>" />
                </div>            
       
