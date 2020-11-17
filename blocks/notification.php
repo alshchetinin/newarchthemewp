@@ -14,7 +14,7 @@
                   <?php echo do_shortcode('[contact-form-7 id="14" title="subscription form"]') ?>
 
                </div>
-               <p class="notification__bottom">Нажимая на кнопку, я соглашаюсь с <a href="/privacy-policy/" target="_blank">политикой конфиденциальности</p>
+               <p class="notification__bottom">Нажимая на кнопку, я соглашаюсь с <a href="/privacy-policy/" target="_blank">политикой конфиденциальности</a></p>
             </div>
             <script>
                document.addEventListener('wpcf7mailsent', function(event) {
