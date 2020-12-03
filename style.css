@@ -5251,7 +5251,7 @@ footer {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1440px) {
       .fact__numbers {
         padding: 16px 20px;
         -webkit-box-align: start;
@@ -5289,7 +5289,7 @@ footer {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1440px) {
       .fact__button {
         padding: 12px 16px; } }
     @media screen and (max-width: 1024px) {
@@ -5308,7 +5308,7 @@ footer {
       font-weight: 600;
       line-height: 1.2;
       margin-bottom: 12px; }
-      @media screen and (max-width: 1280px) {
+      @media screen and (max-width: 1440px) {
         .fact__button p {
           font-size: 14px; } }
       @media screen and (max-width: 780px) {
@@ -5328,7 +5328,7 @@ footer {
           -ms-flex-align: center;
               align-items: center;
       font-size: 16px; }
-      @media screen and (max-width: 1280px) {
+      @media screen and (max-width: 1440px) {
         .fact__button small {
           font-size: 12px; } }
     @media screen and (max-width: 1024px) {
@@ -5352,7 +5352,7 @@ footer {
     @media screen and (max-width: 780px) {
       .fact-number__title {
         font-size: 18px; } }
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1440px) {
       .fact-number__title {
         font-size: 24px; } }
   .fact-number__description {
@@ -5360,7 +5360,7 @@ footer {
     font-family: "Avenir Next", sans-serif;
     font-weight: 600;
     line-height: 1.2; }
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1440px) {
       .fact-number__description {
         font-size: 14px; } }
     @media screen and (max-width: 780px) {
