@@ -5244,8 +5244,8 @@ footer {
   .fact__numbers {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1.5fr 2.5fr 2fr 2.5fr;
-    grid-template-columns: 1.5fr 2.5fr 2fr 2.5fr;
+    -ms-grid-columns: 2fr 2.5fr 2fr 2.5fr;
+    grid-template-columns: 2fr 2.5fr 2fr 2.5fr;
     padding: 18px 50px;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -5271,15 +5271,20 @@ footer {
     background: -webkit-gradient(linear, left top, right top, from(#F857A6), to(#FF5858));
     background: -o-linear-gradient(left, #F857A6 0%, #FF5858 100%);
     background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
-    padding: 14px 18%;
+    padding: 14px 12%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     @media screen and (max-width: 1280px) {
       .fact__button {
         padding: 12px 16px; } }
@@ -5288,21 +5293,17 @@ footer {
         -webkit-box-pack: center;
         -webkit-justify-content: center;
             -ms-flex-pack: center;
-                justify-content: center; } }
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; } }
     .fact__button p {
-      font-size: 24px;
+      font-size: 20px;
       font-family: "Avenir Next", sans-serif;
       font-weight: 600;
-      line-height: 1.5; }
-      @media screen and (max-width: 1640px) {
-        .fact__button p {
-          font-size: 20px; } }
-      @media screen and (max-width: 1024px) {
-        .fact__button p {
-          font-size: 18px; } }
-      @media screen and (max-width: 780px) {
-        .fact__button p {
-          font-size: 16px; } }
+      line-height: 1.2;
+      margin-bottom: 12px; }
       @media screen and (max-width: 1280px) {
         .fact__button p {
           font-size: 16px; } }
@@ -5326,13 +5327,9 @@ footer {
       @media screen and (max-width: 1280px) {
         .fact__button small {
           font-size: 12px; } }
-    .fact__button svg {
-      -webkit-transform: rotateZ(90deg);
-          -ms-transform: rotate(90deg);
-              transform: rotateZ(90deg); }
-      @media screen and (max-width: 1024px) {
-        .fact__button svg {
-          display: none; } }
+    @media screen and (max-width: 1024px) {
+      .fact__button svg {
+        display: none; } }
 
 .fact-number {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
