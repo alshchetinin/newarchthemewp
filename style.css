@@ -5253,7 +5253,11 @@ footer {
             align-items: center; }
     @media screen and (max-width: 1280px) {
       .fact__numbers {
-        padding: 16px 20px; } }
+        padding: 16px 20px;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start; } }
     @media screen and (max-width: 780px) {
       .fact__numbers {
         -ms-grid-columns: 1fr 1fr;
@@ -5306,7 +5310,7 @@ footer {
       margin-bottom: 12px; }
       @media screen and (max-width: 1280px) {
         .fact__button p {
-          font-size: 16px; } }
+          font-size: 14px; } }
       @media screen and (max-width: 780px) {
         .fact__button p {
           text-align: center; } }
@@ -5358,7 +5362,7 @@ footer {
     line-height: 1.2; }
     @media screen and (max-width: 1280px) {
       .fact-number__description {
-        font-size: 16px; } }
+        font-size: 14px; } }
     @media screen and (max-width: 780px) {
       .fact-number__description {
         font-size: 14px; } }
