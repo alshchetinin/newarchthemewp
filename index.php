@@ -23,7 +23,7 @@
 
 <?php echo get_template_part('/blocks/main-project') ?>
 <?php echo get_template_part('/blocks/notification') ?>
-<!-- <?php echo get_template_part('/blocks/standard-section') ?> -->
+
 
 
 <section class="g-block main-partner">
@@ -54,7 +54,7 @@
    </div>
 </section>
 
-<?php echo get_template_part('/blocks/main-blog') ?>
+<!-- <?php echo get_template_part('/blocks/main-blog') ?> -->
 
 <section class="g-block">
    <div class="wrapper">
