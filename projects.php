@@ -6,7 +6,7 @@ Template Post Type: page
 ?>
 
 <?php get_header(); ?>
-<section>
+<section class="page-content">
    <div class="wrapper">
       <div class="row">
          <div class="page-title">

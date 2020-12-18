@@ -789,16 +789,20 @@ a {
   overflow-y: hidden; }
 
 .header {
-  margin: 43px 0px; }
-
-.home .header, .page-template-page-service .header, .single-project .header, .services-template-page-service .header {
-  position: absolute;
+  padding: 43px 0px 0px 0px;
+  position: fixed;
   top: 0;
   z-index: 9999;
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: all 0.7s cubic-bezier(0.65, 0, 0.35, 1);
+  -o-transition: all 0.7s cubic-bezier(0.65, 0, 0.35, 1);
+  transition: all 0.7s cubic-bezier(0.65, 0, 0.35, 1); }
   @media screen and (max-width: 780px) {
-    .home .header, .page-template-page-service .header, .single-project .header, .services-template-page-service .header {
-      margin: 20px 0px; } }
+    .header {
+      padding: 21.5px 0px 0px 0px; } }
+
+.header-fixed {
+  position: fixed; }
 
 .button {
   padding: 10px;
@@ -1220,7 +1224,7 @@ footer {
       margin-bottom: 86px; } }
 
 .page-title {
-  margin-top: 86px;
+  margin-top: 150px;
   margin-bottom: 86px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1640,7 +1644,7 @@ footer {
   display: flex;
   background: #000000;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: -100%;
   opacity: 0;
