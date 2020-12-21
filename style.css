@@ -1530,16 +1530,20 @@ footer {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     margin-left: -10px;
-    margin-right: -10px; }
+    margin-right: -10px;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
   .navigation__item {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     word-wrap: break-word;
     margin-left: 10px;
     margin-right: 10px;
-    width: calc(100% / 4 * 1 - 20px); }
+    width: calc(100% / 7 * 1.3 - 20px); }
     .navigation__item_blog {
-      width: calc(100% / 7 * 2 - 20px); }
+      width: calc(100% / 7 * 3.1 - 20px); }
   .navigation__title {
     font: normal 16px "Avenir Next", sans-serif;
     color: #ffffff; }
@@ -1564,8 +1568,17 @@ footer {
             flex-direction: column;
     position: relative; }
     .navigation__post a {
-      font-weight: bold;
-      padding: 10px 0px; }
+      font-size: 16px;
+      font-family: "Avenir Next", sans-serif;
+      font-weight: 700;
+      line-height: 1.4;
+      padding: 5px 0px;
+      display: block;
+      opacity: .5; }
+    .navigation__post .slick-dupe:nth-child(2) a {
+      opacity: 1; }
+    .navigation__post .slick-current + .slick-slide a {
+      opacity: 1; }
     .navigation__post::after {
       content: "";
       width: 24px;
@@ -1575,7 +1588,7 @@ footer {
       left: -26px;
       background-size: contain;
       background-repeat: no-repeat;
-      bottom: 0px; }
+      bottom: -6px; }
   .navigation_white {
     width: calc(100% - 20px);
     padding: 24px;
