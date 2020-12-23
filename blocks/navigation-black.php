@@ -39,7 +39,7 @@
             $text = get_sub_field('text');
             $link = get_sub_field('href');
             ?>
-            <a href="<?php echo $link ?>"><?php echo $text ?></a>
+            <a target="_blanck" href="<?php echo $link ?>"><?php echo $text ?></a>
 
             <?php endwhile; ?>
          </div>
