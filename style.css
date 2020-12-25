@@ -594,6 +594,13 @@ html {
 ::placeholder {
   color: #EDEDED; }
 
+.font-graient {
+  background: -webkit-gradient(linear, left top, right top, from(#F857A6), to(#FF5858));
+  background: -o-linear-gradient(left, #F857A6 0%, #FF5858 100%);
+  background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
 ::-moz-selection {
   background-color: #FF403C;
   color: #fff; }
@@ -1234,8 +1241,106 @@ footer {
   width: calc(100% - 20px); }
   @media screen and (max-width: 1024px) {
     .page-title {
-      margin-top: 44px;
       margin-bottom: 44px; } }
+  @media screen and (max-width: 780px) {
+    .page-title {
+      margin-top: 100px; } }
+
+.contact-content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(58.33333% - 20px);
+  margin-left: calc(8.33333% + 10px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media screen and (max-width: 1640px) {
+    .contact-content {
+      width: calc(100% - 20px); } }
+  @media screen and (max-width: 1640px) {
+    .contact-content {
+      margin-left: calc(0% + 10px); } }
+  .contact-content a {
+    display: inline-block;
+    margin-bottom: 62px; }
+    @media screen and (max-width: 780px) {
+      .contact-content a {
+        margin-bottom: 32px; } }
+    @media screen and (max-width: 320px) {
+      .contact-content a {
+        font-size: 22px; } }
+  .contact-content .brif {
+    position: relative; }
+    .contact-content .brif::after {
+      content: '_ _ _ _ _ _ _ _ _ _ _ _ ';
+      position: absolute;
+      bottom: -20px;
+      width: 100%;
+      left: 0px;
+      background: -webkit-gradient(linear, left top, right top, from(#F857A6), to(#FF5858));
+      background: -o-linear-gradient(left, #F857A6 0%, #FF5858 100%);
+      background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text; }
+      @media screen and (max-width: 780px) {
+        .contact-content .brif::after {
+          bottom: -10px; } }
+
+.social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.social-item {
+  margin-bottom: 0px;
+  display: block; }
+
+.contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  font-size: 32px;
+  font-family: "aeroport", "Avenir Next", sans-serif;
+  font-weight: bold;
+  line-height: 1.124;
+  line-height: 1.6; }
+  @media screen and (max-width: 1640px) {
+    .contact {
+      font-size: 28px; } }
+  @media screen and (max-width: 1024px) {
+    .contact {
+      font-size: 24px; } }
+  @media screen and (max-width: 780px) {
+    .contact {
+      font-size: 18px; } }
+
+.adress, .time {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(100% / 6 * 3 - 20px); }
+  @media screen and (max-width: 780px) {
+    .adress, .time {
+      width: calc(100% / 6 * 6 - 20px);
+      margin-bottom: 24px; } }
 
 .map {
   -webkit-box-sizing: border-box;
@@ -1248,31 +1353,6 @@ footer {
   border-radius: 10px;
   margin-bottom: 48px;
   outline: none; }
-
-.contact-item {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  word-wrap: break-word;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: calc(33.33333% - 20px);
-  font-size: 32px;
-  font-family: "aeroport", "Avenir Next", sans-serif;
-  font-weight: bold;
-  line-height: 1.124;
-  margin-bottom: 38px; }
-  @media screen and (max-width: 1024px) {
-    .contact-item {
-      width: calc(100% - 20px); } }
-  @media screen and (max-width: 1640px) {
-    .contact-item {
-      font-size: 28px; } }
-  @media screen and (max-width: 1024px) {
-    .contact-item {
-      font-size: 24px; } }
-  @media screen and (max-width: 780px) {
-    .contact-item {
-      font-size: 18px; } }
 
 .text-service {
   -webkit-box-sizing: border-box;

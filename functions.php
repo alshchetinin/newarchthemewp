@@ -9,6 +9,8 @@ function wordpressify_resources() {
 @ini_set( 'post_max_size', '150M');
 @ini_set( 'max_execution_time', '300' );
 
+add_filter('show_admin_bar', 'false');
+
 add_post_type_support( 'page', 'excerpt' );
 add_action( 'wp_enqueue_scripts', 'wordpressify_resources' );
 
