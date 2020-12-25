@@ -1655,9 +1655,9 @@ footer {
       padding: 5px 0px;
       display: block;
       opacity: .5; }
-    .navigation__post .slick-dupe:nth-child(2) a {
+    .navigation__post .slick-current:nth-child(2) {
       opacity: 1; }
-    .navigation__post .slick-current + .slick-slide a {
+    .navigation__post .slick-current + .slick-slide {
       opacity: 1; }
     .navigation__post::after {
       content: "";
