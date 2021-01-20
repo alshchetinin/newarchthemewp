@@ -3459,6 +3459,246 @@ footer {
         font-size: 18px; } }
   .card-form__persone {
     margin: 36px 0px 24px 0px; }
+  .card-form_popup {
+    width: 100%;
+    margin: 0px;
+    color: #ffffff; }
+    @media screen and (max-width: 1024px) {
+      .card-form_popup {
+        padding: 24px; } }
+    .card-form_popup input {
+      width: 100% !important; }
+
+.offset-left {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(8.33333% - 20px); }
+  @media screen and (max-width: 1280px) {
+    .offset-left {
+      display: none; } }
+
+.fare-title {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(66.66667% - 20px);
+  margin-bottom: 100px; }
+
+.fare-item {
+  background: #333333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(25% - 20px);
+  border-radius: 10px; }
+  @media screen and (max-width: 1280px) {
+    .fare-item {
+      width: calc(33.33333% - 20px); } }
+  @media screen and (max-width: 1024px) {
+    .fare-item {
+      width: calc(100% - 20px); } }
+  @media screen and (max-width: 1024px) {
+    .fare-item {
+      margin-bottom: 40px; }
+      .fare-item:last-of-type {
+        margin-bottom: 20px; } }
+  .fare-item__text {
+    padding: 40px;
+    border-bottom: 1px solid #000; }
+  .fare-item__title {
+    font-size: 44px;
+    font-family: "aeroport", "Avenir Next", sans-serif;
+    font-weight: bold;
+    line-height: 1.157;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 1640px) {
+      .fare-item__title {
+        font-size: 34px; } }
+    @media screen and (max-width: 1024px) {
+      .fare-item__title {
+        font-size: 34px; } }
+    @media screen and (max-width: 780px) {
+      .fare-item__title {
+        font-size: 20px; } }
+  .fare-item__subtitle {
+    margin-bottom: 28px; }
+  .fare-item__btn {
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px; }
+  .fare-item__price {
+    font-size: 44px;
+    font-family: "aeroport", "Avenir Next", sans-serif;
+    font-weight: bold;
+    line-height: 1.157; }
+    @media screen and (max-width: 1640px) {
+      .fare-item__price {
+        font-size: 34px; } }
+    @media screen and (max-width: 1024px) {
+      .fare-item__price {
+        font-size: 34px; } }
+    @media screen and (max-width: 780px) {
+      .fare-item__price {
+        font-size: 20px; } }
+  .fare-item__list {
+    padding: 40px; }
+    .fare-item__list ul li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 20px; }
+      @media screen and (max-width: 560px) {
+        .fare-item__list ul li {
+          font-size: 14px;
+          margin-bottom: 16px; } }
+  .fare-item__icon {
+    width: 25%;
+    opacity: 0.5; }
+  .fare-item__list-text {
+    width: 75%; }
+  .fare-item_selected {
+    background: var(--selected); }
+    .fare-item_selected .fare-item__btn {
+      background-color: #fff;
+      color: #333333; }
+
+.additional-service {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(75% - 20px);
+  margin-left: calc(8.33333% + 10px);
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #333333;
+  border-radius: 10px; }
+  @media screen and (max-width: 1640px) {
+    .additional-service {
+      margin-left: calc(0% + 10px); } }
+  @media screen and (max-width: 1024px) {
+    .additional-service {
+      width: calc(100% - 20px); } }
+  @media screen and (max-width: 1640px) {
+    .additional-service {
+      width: calc(100% - 20px); } }
+  @media screen and (max-width: 1024px) {
+    .additional-service {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr; } }
+  .additional-service__title {
+    padding: 60px 28px 60px 48px;
+    border-right: 1px solid #000; }
+    @media screen and (max-width: 1024px) {
+      .additional-service__title {
+        padding: 24px; } }
+    .additional-service__title h3 {
+      font-size: 44px;
+      font-family: "aeroport", "Avenir Next", sans-serif;
+      font-weight: bold;
+      line-height: 1.157;
+      margin-bottom: 16px; }
+      @media screen and (max-width: 1640px) {
+        .additional-service__title h3 {
+          font-size: 34px; } }
+      @media screen and (max-width: 1024px) {
+        .additional-service__title h3 {
+          font-size: 34px; } }
+      @media screen and (max-width: 780px) {
+        .additional-service__title h3 {
+          font-size: 20px; } }
+    .additional-service__title p {
+      margin-bottom: 16px; }
+  .additional-service__btn {
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 46px; }
+    @media screen and (max-width: 1024px) {
+      .additional-service__btn {
+        margin-bottom: 20px; } }
+  .additional-service__video {
+    padding: 60px 28px 60px 28px;
+    position: relative; }
+    @media screen and (max-width: 1024px) {
+      .additional-service__video {
+        padding: 24px; } }
+  .additional-service__cover {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px; }
+    @media screen and (max-width: 1024px) {
+      .additional-service__cover {
+        height: 300px; } }
+  .additional-service__play {
+    position: absolute;
+    top: calc(50% - 29px);
+    left: calc(50% - 29px);
+    width: 58px;
+    height: 58px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    border-radius: 1000px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .additional-service__info {
+    padding: 60px 28px 60px 28px; }
+    @media screen and (max-width: 1024px) {
+      .additional-service__info {
+        padding: 24px; } }
+    .additional-service__info h3 {
+      font-family: "Avenir Next", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 32px; }
+      @media screen and (max-width: 1024px) {
+        .additional-service__info h3 {
+          font-size: 16px; } }
+    .additional-service__info ul li {
+      margin-bottom: 32px; }
 
 .hero {
   position: relative;
