@@ -33,7 +33,7 @@ Template Post Type: page
             
                <a href="<?php the_permalink() ?>"></a>
                <div class="project-item__content">
-                  <div class="project-item__title font-gigant">
+                  <div class="project-item__title">
                      <?php the_title() ?>
                   </div>
                   <div class="project-item__description">

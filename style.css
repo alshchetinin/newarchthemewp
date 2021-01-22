@@ -3900,19 +3900,23 @@ footer {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0; }
   .project-item__title {
     padding: 0px 50px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 0.5rem;
+    font-size: 50px;
+    line-height: 1.1;
+    font-family: "aeroport", "Avenir Next", sans-serif;
+    font-weight: 600; }
+    @media screen and (max-width: 1024px) {
+      .project-item__title {
+        font-size: 28px; } }
+  .project-item__description {
+    padding: 0px 50px;
+    display: none; }
   .project-item__tag {
     position: absolute;
     bottom: 16px;
@@ -3920,17 +3924,14 @@ footer {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     width: 100%; }
     .project-item__tag span {
       text-align: center;
       padding: 6px 16px;
       background: #333333;
       border-radius: 10px;
-      display: block; }
+      display: block;
+      margin: 0px 50px; }
 
 .analyzing {
   margin-bottom: 172px; }
