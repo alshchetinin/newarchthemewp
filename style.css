@@ -689,6 +689,10 @@ body {
   color: #ffffff;
   background: #000; }
 
+.project-template-default {
+  color: #333333;
+  background: #ffffff; }
+
 p {
   font-family: "Avenir Next", sans-serif; }
 
@@ -1171,7 +1175,8 @@ footer {
   background: #333333;
   border-radius: 10px;
   padding: 60px 0px;
-  margin-bottom: 43px; }
+  margin-bottom: 43px;
+  color: #ffffff; }
   @media screen and (max-width: 1640px) {
     .footer-form {
       padding: 60px 60px; } }
@@ -3706,7 +3711,8 @@ footer {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 172px; }
+  margin-bottom: 172px;
+  color: #ffffff; }
   .hero__overlay {
     position: absolute;
     width: 100%;
