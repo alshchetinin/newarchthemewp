@@ -3789,6 +3789,7 @@ footer {
   margin-left: 10px;
   margin-right: 10px;
   width: calc(100% / 11 * 3 - 20px);
+  color: #ffffff;
   height: 300px;
   border-radius: 10px;
   background-size: cover;
