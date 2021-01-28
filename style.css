@@ -689,7 +689,7 @@ body {
   color: #ffffff;
   background: #000; }
 
-.project-template-default {
+.project-template-default, .project-template {
   color: #333333;
   background: #ffffff; }
 
