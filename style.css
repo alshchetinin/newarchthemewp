@@ -1482,6 +1482,105 @@ footer {
   margin-right: 10px;
   width: calc(66.66667% - 20px); }
 
+.hero {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.hero-text {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(50% - 20px);
+  margin-left: calc(8.33333% + 10px);
+  z-index: 1; }
+  @media screen and (max-width: 1640px) {
+    .hero-text {
+      margin-left: calc(0% + 10px); } }
+  @media screen and (max-width: 1640px) {
+    .hero-text {
+      width: calc(50% - 20px); } }
+  .hero-text h1 {
+    line-height: 70px; }
+
+.slider-dots {
+  background-color: #454545;
+  border-radius: 4px;
+  padding: 0px 10px; }
+
+.slider-dots_active {
+  background: var(--active-slider-color); }
+
+.hero-slider {
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  width: 100%; }
+  .hero-slider__slide {
+    position: relative;
+    height: 100vh; }
+  .hero-slider__pic {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(50% - 20px);
+    margin-left: calc(58.33333% + 10px); }
+    @media screen and (max-width: 1640px) {
+      .hero-slider__pic {
+        margin-left: calc(50% + 10px); } }
+    @media screen and (max-width: 1640px) {
+      .hero-slider__pic {
+        width: calc(50% - 20px); } }
+
+.slide-img-wrapper {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden; }
+
+.blur_1 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 358px;
+  height: 358px;
+  -webkit-filter: blur(348px);
+          filter: blur(348px); }
+
+.blur_2 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 358px;
+  height: 358px;
+  -webkit-filter: blur(348px);
+          filter: blur(348px); }
+
 .header-block {
   display: -webkit-box;
   display: -webkit-flex;
