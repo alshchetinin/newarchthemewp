@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
 <?php echo get_template_part('/blocks/hero') ?>
-<?php echo get_template_part('/blocks/lead-section') ?>
+<?php echo get_template_part('/blocks/main-project') ?>
+<!-- <?php echo get_template_part('/blocks/lead-section') ?> -->
 <?php echo get_template_part('/blocks/service-section') ?>
 
 <section id="headline-section" class="g-block">
@@ -21,7 +22,7 @@
    </div>
 </section>
 
-<?php echo get_template_part('/blocks/main-project') ?>
+
 <?php echo get_template_part('/blocks/notification') ?>
 <?php echo get_template_part('/blocks/partner', 'big') ?>
 

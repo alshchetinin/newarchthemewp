@@ -1513,22 +1513,46 @@ footer {
   @media screen and (max-width: 1640px) {
     .hero-text {
       width: calc(50% - 20px); } }
+  @media screen and (max-width: 1280px) {
+    .hero-text {
+      width: calc(100% - 20px); } }
   .hero-text h1 {
     line-height: 70px; }
+    @media screen and (max-width: 1024px) {
+      .hero-text h1 {
+        line-height: 160%; }
+        .hero-text h1 span {
+          font-size: 24px; } }
+
+@media screen and (max-width: 1024px) {
+  .hero-text-mobile {
+    font-size: 18px !important;
+    margin-bottom: 24px;
+    display: block;
+    line-height: 140%; } }
 
 .slider-dots {
-  background-color: #454545;
+  background: -webkit-gradient(linear, left top, left bottom, from(#454545), to(#454545));
+  background: -o-linear-gradient(top, #454545 0%, #454545 100%);
+  background: linear-gradient(180deg, #454545 0%, #454545 100%);
   border-radius: 4px;
   padding: 0px 10px; }
+  .slider-dots:hover {
+    opacity: 1; }
 
 .slider-dots_active {
   background: var(--active-slider-color); }
+  .slider-dots_active .branding {
+    color: #333333; }
 
 .hero-slider {
   position: absolute;
   top: 0px;
   height: 100vh;
   width: 100%; }
+  @media screen and (max-width: 1024px) {
+    .hero-slider {
+      display: none; } }
   .hero-slider__slide {
     position: relative;
     height: 100vh; }
@@ -1619,7 +1643,7 @@ footer {
   width: calc(16.66667% - 20px); }
   @media screen and (max-width: 780px) {
     .logo {
-      display: none; } }
+      width: calc(50% - 20px); } }
   .logo_mobile {
     display: none;
     -webkit-box-sizing: border-box;
@@ -5881,7 +5905,8 @@ footer {
   .fact_absolute {
     position: absolute;
     width: 100%;
-    bottom: 10px; }
+    bottom: 10px;
+    z-index: 2; }
     @media screen and (max-width: 1680px) {
       .fact_absolute {
         bottom: -50px; } }
@@ -5890,8 +5915,7 @@ footer {
         bottom: -50px; } }
     @media screen and (max-width: 1024px) {
       .fact_absolute {
-        position: relative;
-        margin-top: -64px; } }
+        position: relative; } }
   .fact__container {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
